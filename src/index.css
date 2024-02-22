@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.todoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.todoInnerContainer {
+    display: grid;
+    align-items: center;
+    border: 2px solid #313131;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px;
+}
+
+.dataContainer {
+    display:inline;
+    list-style: none;
+    padding: 0;
+}
+
+.dataContainer li {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dataContainer button {
+    float: right;
+}
